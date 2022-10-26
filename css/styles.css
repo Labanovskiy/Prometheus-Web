@@ -25,11 +25,13 @@ p {
 .container {
     margin: 0 auto;
     width: 960px;
+
 }
 
 .header {
     padding: 50px 0;
     background-color: yellowgreen;
+    height: 70px;
 }
 
 .header h1, h2 {
@@ -59,6 +61,7 @@ p {
 .page_navi li a:hover {
     color: yellowgreen;
     background-color: black;
+    border-radius: 10px;
 }
 
 /* <!LOGIN FORM */
@@ -81,6 +84,7 @@ p {
 padding: 5px 15px;
 border: 1px solid lightgray;
 border-radius: 5px;
+font-weight: bold;
 }
 
 .login input[type="submit"]:hover, button:hover {
@@ -128,6 +132,15 @@ font-size: 36px;
     border: 1px solid #959595;
 }
 
+.collection_item:hover {
+    border: 2px solid black;
+}
+
+.collection_item > iframe {
+    width: auto;
+    height: auto;
+}
+
 .collection_item img,
 .collection_item video {
     width: 100%;
@@ -162,5 +175,6 @@ overflow: hidden;
     color: white;
     padding: 20px 0;
     margin-top: 30px;
+    text-align: center;
 }
 
